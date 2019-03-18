@@ -7,7 +7,7 @@
 ### Author: Erin Trainor
 
 ### Links and Resources
-* [repo](https://github.com/etrainor/401-javascript-lab01)
+* [repo](https://github.com/401-advanced-javascript-401d29/lab-01)
 * [travis](https://www.travis-ci.com/etrainor/401-javascript-lab01)
 * [front-end](https://lab01-javascript-401.herokuapp.com/) (when applicable)
 

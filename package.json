@@ -1,0 +1,26 @@
+{
+  "name": "401-javascript-lab01",
+  "version": "1.0.0",
+  "description": "node ecosystem",
+  "main": "index.js",
+  "dependencies": {
+    "arithmetic": "^1.0.1",
+    "eslint": "^5.13.0",
+    "faker": "^4.1.0",
+    "jest": "^24.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etrainor/401-javascript-lab01.git"
+  },
+  "author": "Erin Trainor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etrainor/401-javascript-lab01/issues"
+  },
+  "homepage": "https://github.com/etrainor/401-javascript-lab01#readme"
+}

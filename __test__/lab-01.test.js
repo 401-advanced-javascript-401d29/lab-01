@@ -46,7 +46,8 @@ let math = (array, operator) => {
 
   }
 };
-//Declare a symbol to test for
+
+//DECLARE A SYMBOL TO TEST AGAINST
 let symbol = Symbol();
 
 // TESTS

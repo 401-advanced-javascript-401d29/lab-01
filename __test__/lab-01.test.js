@@ -46,13 +46,43 @@ let math = (array, operator) => {
 
   }
 };
+//Declare a symbol to test for
+let symbol = Symbol();
 
 // TESTS
 describe('#lab-01.test.js', () => {
-    
+
   // GREET MODULE
   test('Should return null if value is not a string', () => {
     const greetMessage = greet.message(faker.random.number());
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message([]);
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message({});
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message(symbol);
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message(false);
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message(true);
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message(null);
+    expect(greetMessage).toBeNull();
+  });
+  test('Should return null if value is not a string', () => {
+    const greetMessage = greet.message(undefined);
     expect(greetMessage).toBeNull();
   });
   test('Should return hello world!', () => {
@@ -61,7 +91,6 @@ describe('#lab-01.test.js', () => {
   });
     
   // ARITHMETIC MODULE
-  // MODIFIED FROM H'LIANA'S CODE
   test('Test should add numbers from an array', () => {
     let array = [faker.random.number(), faker.random.number(), noZero()];
     let result = math(array, '+');

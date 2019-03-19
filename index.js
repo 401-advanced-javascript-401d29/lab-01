@@ -7,10 +7,10 @@ const arithmetic = require('./lib/arithmetic');
 
 //PREVENT DIVISION BY ZERO
 let noZero = () => {
-    let randomNum = faker.random.number();
-    if(randomNum === 0) {
-        return randomNum + 1;
-    } else return randomNum;
+  let randomNum = faker.random.number();
+  if(randomNum === 0) {
+    return randomNum + 1;
+  } else return randomNum;
 };
 
 //ARRAY

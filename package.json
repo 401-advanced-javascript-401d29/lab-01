@@ -5,13 +5,17 @@
   "main": "index.js",
   "dependencies": {
     "arithmetic": "^1.0.1",
-    "eslint": "^5.13.0",
+    "eslint": "^5.15.3",
     "faker": "^4.1.0",
     "jest": "^24.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --coverage"
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "repository": {
     "type": "git",

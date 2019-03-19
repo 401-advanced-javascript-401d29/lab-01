@@ -9,7 +9,6 @@
 ### Links and Resources
 * [repo](https://github.com/401-advanced-javascript-401d29/lab-01)
 * [travis](https://travis-ci.com/401-advanced-javascript-401d29/lab-01)
-* [front-end](https://lab01-javascript-401.herokuapp.com/) (when applicable)
 
 
 ### Modules
@@ -33,4 +32,4 @@ node index.js in the terminal
   * Arithmetic tests that cannot divide by zero.
 
 #### UML
-PICTURE :) - See demo video at 44:22
+[Picture Source](https://drive.google.com/file/d/1nbo4NYa9P5svoQjpPV0BXTQdDnoJKeuY/view?usp=sharing)

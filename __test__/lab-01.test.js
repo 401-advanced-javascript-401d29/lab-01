@@ -17,33 +17,36 @@ let noZero = () => {
 // FUNCTION TO PASS IN OPERATORS AND LOOP THROUGH ARRAY - THIS IS ESSENTIALLY AN IF/ELSE STATEMENT THAT GETS AN ARRAY AND A MATH OPERATOR
 let math = (array, operator) => {
   switch (operator) {
-  case '+':
+  case '+': {
     let newSum = 0;
     for(let i in array){
       newSum += array[i];
     }
     return newSum;
-  case '-':
+  }
+  case '-': {
     let newDifference = array[0];
     for(let i = 1 ; i < array.length ; i++){
       newDifference -= array[i];
     }
     return newDifference;
-  case '*':
+  }
+  case '*': {
     let newProduct = array[0];
     for (let i = 1 ; i < array.length ; i++){
       newProduct *= array[i];
     }
     return newProduct;
-  case '/':
+  }
+  case '/': {
     let newQuotient = array[0];
     for(let i = 1 ; i < array.length ; i++){
       newQuotient /= array[i];
     }
     return newQuotient;
+  }
   default:
     return null;
-
   }
 };
 
